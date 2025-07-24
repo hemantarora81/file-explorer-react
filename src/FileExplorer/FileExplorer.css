@@ -1,0 +1,20 @@
+.file-node{
+    transition: background 0.2s;
+    padding: 4px 0;
+    user-select: none;
+}
+.file-node .toggle{
+    cursor: pointer;
+    margin-right: 4px;
+    color: #555;
+}
+.file-node input[type='checkbox']{
+    margin-right: 8px;
+}
+.file-node.hovered,.file-node:hover{
+    background: #e3f1ff;
+}
+.file-node.active{
+    background: #d0e8ff;
+    font-weight: bold;
+}
